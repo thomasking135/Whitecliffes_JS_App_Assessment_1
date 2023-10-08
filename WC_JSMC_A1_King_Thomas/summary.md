@@ -1,4 +1,4 @@
-<span style="color: blue;"># Kiwi Sports Apparel App Summary</span>
+<span style="color: blue;">#Kiwi Sports Apparel App Summary</span>
 
 <span style="color: green;">**Security-Focused Registration Process**</span>
 
