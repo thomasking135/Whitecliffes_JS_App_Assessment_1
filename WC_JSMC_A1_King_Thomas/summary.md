@@ -13,3 +13,6 @@ Upon successful registration and confirmation of the user's existence, a one-tim
 For users with an active account and a valid, unexpired token, seamless access to the app is granted. Tokens are carefully managed and only persist as long as they meet the criteria of being current and within the allowed usage window.
 
 The Kiwi Sports Apparel App's registration and token system not only prioritizes security but also ensures efficient and secure access for its users.
+
+![image](https://github.com/thomasking135/Whitecliffes_JS_App_Assessment_1/assets/62085061/989e3fde-f917-4cb3-878a-ba0cabc0700c)
+
