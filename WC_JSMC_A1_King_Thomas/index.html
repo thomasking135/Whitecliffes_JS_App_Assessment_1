@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Registration and Token Demo</title>
+</head>
+<body>
+    <!-- Registration Form -->
+    <h1>Kiwi Sports Apparel</h1>
+    <h2>Registration</h2>
+    <form id="registration-form">
+        Name: <input type="text" id="name" required><br>
+        Email: <input type="email" id="email" required><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Login Form -->
+    <h2>Login</h2>
+    <form id="login-form">
+        Email: <input type="email" id="login-email" required><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <!-- Display the generated token after successful login -->
+    <div id="token-display" style="display: none;">
+        <h2>Generated Token</h2>
+        <p id="generated-token"></p>
+    </div>
+
+    <!-- Token Entry Form -->
+    <div id="token-entry" style="display: none;">
+        <h2>Enter Token</h2>
+        <form id="token-form">
+            Token: <input type="text" id="entered-token" required><br>
+            <input type="submit" value="Submit Token">
+        </form>
+    </div>
+
+    <!-- New Page of SPA (hidden by default) -->
+    <div id="new-page" style="display: none;">
+        <h2>Welcome to Kiwi Sports Apparel!</h2>
+
+        <p>For all your clothing needs.</p>
+
+        <p>We are your sports clothes specialists and can cater for any sport. </p>
+        <!-- Add content for the new page here -->
+    </div>
+    <script src="./token.js"></script>
+</body>
+</html>

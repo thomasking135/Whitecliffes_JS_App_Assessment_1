@@ -1,0 +1,112 @@
+/* Reset some default styles for better consistency */
+body, h2, form, input, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: black;
+    color: green;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the registration and login forms */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Form layout */
+form {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+}
+
+/* Style the registration form */
+#registration-form {
+    background-color: green;
+    color: white;
+}
+
+#registration-form input[type="submit"] {
+    background-color: black;
+    color: green;
+    cursor: pointer;
+}
+
+/* Style the login form */
+#login-form {
+    background-color: green;
+    color: white;
+
+}
+
+#login-form input[type="submit"] {
+    background-color: black;
+    color: green;
+    cursor: pointer;
+}
+
+/* Style the token display and entry forms */
+#token-display, #token-entry {
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Styling of the generated token */
+#generated-token, #entered-token {
+    background-color: black;
+    color: green;
+    width: 200px;
+}
+
+/* Styling of the generated token form input */
+#token-form input[type="submit"] {
+    background-color: black;
+    color: green;
+    cursor: pointer;
+}
+
+/* Style the new page */
+#new-page {
+    background-color: green;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+/* Extension to SPA page styling */
+#new-page h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#new-page p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+}
